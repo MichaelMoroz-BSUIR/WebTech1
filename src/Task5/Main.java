@@ -1,4 +1,6 @@
-package Task4;
+package Task5;
+
+import Task4.Input;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -12,6 +14,6 @@ public class Main {
         System.out.println("Your array:");
         System.out.println(Arrays.toString(array));
 
-        System.out.println(Numbers.findPrime(array));
+        System.out.println(Sequence.amountToLis(array));
     }
 }

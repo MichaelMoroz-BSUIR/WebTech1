@@ -1,20 +1,20 @@
-package Task4;
+package Task6;
 
 import java.util.Scanner;
 
 public class Input {
 
-    public static int[] input(Scanner in) {
+    public static double[] input(Scanner in) {
         System.out.println("Enter N: ");
         int size = in.nextInt();
-        int[] array = new int[size];
+        double[] array = new double[size];
         System.out.println("Insert array elements:");
         for (int i = 0; i < size; i++) {
-            while (!in.hasNextInt()) {
+            while (!in.hasNextDouble()) {
                 System.err.println("Error!");
                 in.next();
             }
-            array[i] = in.nextInt();
+            array[i] = in.nextDouble();
             in.nextLine();
             if (i < size - 1) {
                 System.out.println("Next->");

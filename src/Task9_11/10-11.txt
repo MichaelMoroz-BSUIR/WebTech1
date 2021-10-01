@@ -1,0 +1,2 @@
+javac .\interfaces\Colorable.java .\interfaces\Weightable.java .\Ball.java .\Basket.java .\BasketUtils.java .\Color.java .\Main.java
+jar cfm task9_11.jar Manifest.txt *
